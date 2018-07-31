@@ -1,0 +1,80 @@
+body {
+    height: 100ch;
+}
+h1 {
+    color: red;
+}
+#root{
+    height : 100%;
+    background-image:url(image3.jpg);
+    background-size: contain;
+    background-attachment: scroll 
+
+}
+/* Element - Hạng */
+#second_title{
+    background-color: aqua;
+    color: hotpink
+}
+/* #ID - Đơn*/
+.text_italic{
+    font-style: italic
+}
+/* .Class - Đội*/
+.bg_red{
+    background-color: rgb(216, 91, 91)
+}
+.w-50p{
+    width:200px; 
+}
+.h-2p{
+    height: 125px
+}
+.p-2{
+    padding: 20px 10px 30px 10px
+}
+/* Padding = Cái rìa màu chạy từ top theo kim đồng hồ*/
+.mt-2{
+    margin-top: 20px
+}
+.text-justify{
+    text-align: justify
+}
+.d-inline{
+    display: inline
+}
+.d-inline-block{
+    display: inline-block
+}
+.background-buru{
+    background-color: rgb(128, 127, 238)
+}
+.d-block{
+    display: block;
+}
+.w-500p{
+    width: 500px;
+
+}
+.h-400p{
+    height: 400px;
+}
+.w-25{
+    width: 25%
+}
+.h-75{
+    height: 75%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between
+}
+.m-2{
+    margin: 20px
+}
+.w-700p{
+    width: 700px;
+}
+
+/* Margin = Rìa trắng */
