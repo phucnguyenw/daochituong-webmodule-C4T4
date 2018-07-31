@@ -1,0 +1,63 @@
+body{
+    height:100vh;
+    background-color: azure
+
+}
+#bigdiv{
+    background-image: url(Background.jpg);
+    height:35vw;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+
+}
+h2{
+    color: azure;
+    font-family: "Arial",sans-serif;
+    font-weight: 600;
+    position: relative;
+    height:1em;
+    width: 80vw;
+    font-size: 2vw;
+    margin-top: 1.5vw;
+    margin-bottom: 2.5vw;
+    text-align: center
+}
+#smallerdiv{
+    width:90%;
+    height:28vw;
+    
+    display:flex;
+    justify-content: center
+}
+.evensmallerdiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 25%;
+    
+    padding-top: 2vw;
+    align-content: flex-start
+}
+img{
+    width:12vw;
+    height:12vw;
+    border-radius: 50%;
+    
+    
+}
+.line{
+    background-color: rgb(199, 199, 199);
+    height: 1px;
+    width: 18vw;
+    margin-top: 2vw
+}
+.name{
+    font-size: 1.5vw;
+    font-weight: 500
+}
